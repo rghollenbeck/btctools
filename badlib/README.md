@@ -50,7 +50,7 @@ fn main() {
 
 2. Import `badlib` into your project:
    ```rust
-   use badlib::*;
+   use btctools::badlib::*;
    ```
 
 ## License

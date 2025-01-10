@@ -1,6 +1,6 @@
 # badlib
 
-**badlib** is a lightweight Rust library for interacting with the BIP-39 wordlist. It provides functions to convert between binary, decimal, and BIP-39 words efficiently.
+**badlib** (derived from BIP-39 Answers Desk) is a lightweight Rust library for interacting with the BIP-39 wordlist. It provides functions to convert between binary, decimal, and BIP-39 words efficiently.  Calculating a BIP-39 mnemonic word phrase and checking for a valid checksum can be a hassle.  Badlib modularizes the process.  Other processes in the wallet under construction can query this library and get quick lookup of a mnemonic word's decimal index or its binary counterpart and match it to a BIP-39 mnemonic word, and also the reverse.
 
 **Note:** badlib is now part of the [btctools](https://github.com/rghollenbeck/btctools) suite, a toolbox of libraries and utilities for Bitcoin developers and enthusiasts.
 

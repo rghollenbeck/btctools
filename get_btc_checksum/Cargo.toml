@@ -1,0 +1,25 @@
+[package]
+name = "get_btc_checksum"
+version = "0.1.0"
+authors = ["Rich Hollenbeck <rghollenbeck@protonmail.com>"]
+description = "A library for calculating and producing the final bits for the last word in a BIP-39 mnemonic phrase"
+license = "MIT"
+repository = "https://github.com/rghollenbeck/btctools/badlib"
+homepage = "https://github.com/rghollenbeck/btctools/badlib"
+documentation = "https://docs.rs/btctools/badlib"
+keywords = ["bip39", "bitcoin", "wallet", "mnemonic"]
+categories = ["cryptography", "blockchain", "Bitcoin", "BIP-39"]
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+thiserror = "1.0"
+
+[lib]
+name = "get_btc_checksum"
+path = "src/lib.rs"
+
+[[bin]]
+name = "get_btc_checksum_bin"
+path = "src/main.rs"
+

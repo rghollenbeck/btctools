@@ -1,0 +1,16 @@
+[package]
+name = "mnemonic"
+version = "0.1.0"
+authors = ["Rich Hollenbeck <rghollenbeck@protonmail.com>"]
+edition = "2021"
+description = "A library for working with the BIP39 wordlist, providing functions to map words, binaries, and decimals."
+license = "MIT"
+repository = "https://github.com/rghollenbeck/badlib"
+documentation = "https://docs.rs/badlib"
+homepage = "https://github.com/rghollenbeck/badlib"
+keywords = ["bip39", "bitcoin", "wallet", "mnemonic"]
+categories = ["cryptography", "blockchain", "Bitcoin", "BIP-39"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

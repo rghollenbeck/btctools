@@ -1,3 +1,8 @@
-[dependencies]
-mnemonic = { path = "./mnemonic" }
+[workspace]
+resolver = "2"
+members = [
+    "mnemonic",
+    "derive_seed",
+    "get_btc_checksum"
+]
 
